@@ -61,31 +61,14 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="6" x="0.34875" y="0.2701612903225806" useARA="0" uiLastX_Normal="237"
-          uiLastY_Normal="134" uiopen_Normal="1">
-    <PLUGIN name="vstPlayer" format="VST3" category="Instrument|Synth" manufacturer="Mirax Labs"
-            version="3.0.116" file="C:\Program Files\Common Files\VST3\vstPlayer.vst3"
-            uniqueId="8fdefd46" isInstrument="1" fileTime="18df5477f00" infoUpdateTime="192b945f692"
-            numInputs="0" numOutputs="0" isShell="0" hasARAExtension="0"
-            uid="ee63cfc"/>
-    <STATE>794.VMjLgDw....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9TSLw3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjczXTR5AkaA4hKtfjYikWTGIlKL4hK5EjKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAciZUMTRSgjRD4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcCE1YMczXlQ0UZc0ZFkkdmY0SnY1PLYGRBgDLqYjTqsVLY4VTW8DZTMDS1gjPHY2cVgEM2YkV4EkLSQGLogzcHIDR3UkQhsVQFMFNHIDSn4BZiU2cVM1bUY0Sn4RZKkGQo0DdHkWSxfUdLMiZSwDdHMDS2gjPHYWQVMVdUYTV3fjTLglK3IFMzDCV3fjPLg1LC8jc2YEVzbmUZkWTs8zMXYkVxUkQHQWQVE1ZvjFRE81PW0TUxH1aMYzUFgSLgYFVToUamYzXqkjLhIVQS4DMhMDRy4hPU4VUFgzP3XTX0UUahYFQpElZAITUtUkQHM0YVgkcUYzU1gTZKYld5EFcyYUVzDDdUgWUrEVZmw1RyEjLLg1Mn8zM2HjXxUjUjI2ZwHldzLzS0YmUXkWTs8jKt3hKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UX4BQP4hPqcjXm0jLh4BQP4xPt.0Qt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
-    <LAYOUT>
-      <INPUTS>
-        <BUS index="0" layout="L R"/>
-      </INPUTS>
-      <OUTPUTS>
-        <BUS index="0" layout="L R"/>
-      </OUTPUTS>
-    </LAYOUT>
-  </FILTER>
   <FILTER uid="7" x="0.52375" y="0.5866935483870968" useARA="0" uiLastX_Normal="448"
           uiLastY_Normal="289" uiopen_Normal="1">
     <PLUGIN name="SimpleEQ" format="VST3" category="Fx" manufacturer="yourcompany"
             version="1.0.0" file="D:\Programming\.learn\cpp\SimpleEQ\Builds\VisualStudio2022\x64\Debug\VST3\SimpleEQ.vst3\Contents\x86_64-win\SimpleEQ.vst3"
-            uniqueId="fea3e318" isInstrument="0" fileTime="192b93b94b9" infoUpdateTime="192b945f693"
+            uniqueId="fea3e318" isInstrument="0" fileTime="192c23be264" infoUpdateTime="192c23d4b70"
             numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="e958f9d5"/>
-    <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <STATE>623.VMjLgXl....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LCNy3BTEwlXmAiUYoWUrIVdA4hKAIlKTETRUAUSAAkKBolQY4BQlMTQlQkVscVLPASTGgjQIcUV2EjYic1cVM1ZAAkKIAkKt3hKt3hKlMidtDjKTETRUAUSAAkKBolQY4BQ1MTQlQkVscVLPASTGgzT2ESX1UkQtDSQFEFLUYjKAolKA4hKt3hKt3hKt3hKt.UQpQUPvPjKAgDTZoVPP4RST4xT0MlLPASTGgjQIcUV2EjYic1cVM1ZAAkKIAkKt3hKt3hKtnEZtDjKTETRUAUSAAkKBolQY4BQlMTQ1oWXxzDUioWP3Qkb3XjXqEjYic1cVM1ZAAkKIAkKt3hKt3hKt3hKt3hKTETRUAUSAAkKBolQY4BQ1ITQtTUVmMmQHYTRWk0cAY1XmcmUisVPP4RRP4hKt3hKt3hKxblKA4BUAkTUP0TPP4hPpYTVtPjcBUjKUk0YyYDRGUjUZQWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDY1PE4RUYc1bFgTTUcEVxslQiQSPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hK2rhKt3hKt3hKt3hKt3haTU0PUQDU3sFaicVTWkEQEYzXmEDTtDDRTQlcEEiX4EDTtDDSt3xXt3hKt3hKt3hKlIUUMQUTPkzUZESQFM1ZQQEV5UjQ77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
     <LAYOUT>
       <INPUTS>
         <BUS index="0" layout="L R"/>
@@ -95,8 +78,25 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <CONNECTION srcFilter="6" srcChannel="0" dstFilter="7" dstChannel="0"/>
-  <CONNECTION srcFilter="6" srcChannel="1" dstFilter="7" dstChannel="1"/>
+  <FILTER uid="8" x="0.38375" y="0.3911290322580645" useARA="0" uiLastX_Normal="255"
+          uiLastY_Normal="19" uiopen_Normal="1">
+    <PLUGIN name="AudioFilePlayer" format="VST3" category="Fx" manufacturer="Matkat Music LLC"
+            version="1.0.0" file="C:\Program Files\Common Files\VST3\AudioFilePlayer.vst3"
+            uniqueId="79fe81c" isInstrument="0" fileTime="192c00f25f6" infoUpdateTime="192c23d4b70"
+            numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+            uid="e95d02c7"/>
+    <STATE>346.VMjLgDU....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DyM03BTIISX1UEaho2ZVkUdAAkKAwDUigWRWkEcQ0VTucmUY4BQ1UUQTolShACUik2ZwfkXiQjV00zQiIVRCwzcpMDRy4BdTsVVWkEcAIkTz0jQZsVSGgzSYYDRSUjQicFMVoUZAIDUmQiUZkVPBozTqwVXscmUY8lcEwzcyHDRKsVLhkWPBUkaUYDRGgiUKcDNVgkdzHUX10zPt3hKt3hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEVtPDTtHzZGI1YMIiXtPDTtLjKPcjKt3hKt3hKt3haTU0PUQDU3sFaicVTWkEQEYzXmEDOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
   <CONNECTION srcFilter="7" srcChannel="0" dstFilter="3" dstChannel="0"/>
   <CONNECTION srcFilter="7" srcChannel="1" dstFilter="3" dstChannel="1"/>
+  <CONNECTION srcFilter="8" srcChannel="0" dstFilter="7" dstChannel="0"/>
+  <CONNECTION srcFilter="8" srcChannel="1" dstFilter="7" dstChannel="1"/>
 </FILTERGRAPH>
