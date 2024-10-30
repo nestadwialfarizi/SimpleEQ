@@ -301,17 +301,16 @@ void ResponseCurveComponent::paint(juce::Graphics& g)
 
     const double outputMin = responseArea.getBottom();
     const double outputMax = responseArea.getY();
-    auto map = [outputMin, outputMax](double input)
-        {
-            return jmap(input, -24.0, 24.0, outputMin, outputMax);
-        };
+    auto map = [outputMin, outputMax](double input) { return jmap(input, -24.0, 24.0, outputMin, outputMax); };
 
     responseCurve.startNewSubPath(responseArea.getX(), map(mags.front()));
 
     for (size_t i = 1; i < mags.size(); ++i)
         responseCurve.lineTo(responseArea.getX() + i, map(mags[i]));
 
-    g.setColour(Colours::blue);
+    leftChannelFFTPath.applyTransform(AffineTransform().translation(responseArea.getX(), responseArea.getY()));
+
+    g.setColour(Colours::skyblue);
     g.strokePath(leftChannelFFTPath, PathStrokeType(1.f));
 
     g.setColour(Colours::orange);
