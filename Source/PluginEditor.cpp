@@ -28,7 +28,6 @@ void LookAndFeel::drawRotarySlider(
     if (auto* rswl = dynamic_cast<RotarySliderWithLabels*>(&slider))
     {
         auto center = bounds.getCentre();
-
         Path p;
         Rectangle<float> r;
 
@@ -44,6 +43,7 @@ void LookAndFeel::drawRotarySlider(
         auto sliderAngRad = jmap(sliderPosProportional, 0.f, 1.f, rotaryStartAngle, rotaryEndAngle);
         
         p.applyTransform(AffineTransform().rotated(sliderAngRad, center.getX(), center.getY()));
+        
         g.fillPath(p);
         g.setFont(rswl->getTextHeight());
 
@@ -53,10 +53,10 @@ void LookAndFeel::drawRotarySlider(
         r.setSize(strWidth + 4, rswl->getTextHeight() + 2);
         r.setCentre(bounds.getCentre());
 
-        g.setColour(Colours::black);
+        g.setColour(enabled ? Colours::black : Colours::darkgrey);
         g.fillRect(r);
 
-        g.setColour(Colours::white);
+        g.setColour(enabled ? Colours::white : Colours::lightgrey);
         g.drawFittedText(text, r.toNearestInt(), juce::Justification::centred, 1);
     }
 }
@@ -605,7 +605,7 @@ SimpleEQAudioProcessorEditor::SimpleEQAudioProcessorEditor (SimpleEQAudioProcess
         {
             if (auto* comp = safePtr.getComponent())
             {
-                auto bypassed = comp->peakBypassButton.getToggleState();
+                auto bypassed = comp->lowCutBypassButton.getToggleState();
 
                 comp->lowCutFreqSlider.setEnabled(!bypassed);
                 comp->lowCutSlopeSlider.setEnabled(!bypassed);
@@ -616,7 +616,7 @@ SimpleEQAudioProcessorEditor::SimpleEQAudioProcessorEditor (SimpleEQAudioProcess
         {
             if (auto* comp = safePtr.getComponent())
             {
-                auto bypassed = comp->peakBypassButton.getToggleState();
+                auto bypassed = comp->highCutBypassButton.getToggleState();
 
                 comp->highCutFreqSlider.setEnabled(!bypassed);
                 comp->highCutSlopeSlider.setEnabled(!bypassed);
